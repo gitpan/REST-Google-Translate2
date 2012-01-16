@@ -1,0 +1,53 @@
+REST-Google-Translate2 1.0.8
+
+This is an update to Eugen Sobchenko's  REST::Google::Translate
+module for the Google Translate API v2. 
+
+As of December 2011, Google Translate API v2 is no longer a 
+free service. To use it, you must get a Google API key and
+register your key with Google to be billed for using Google
+services.
+
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	API_KEY=your_Google_API_key make test
+	make install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc REST::Google::Translate2
+
+You can also look for information at:
+
+    RT, CPAN's request tracker (report bugs here)
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=REST-Google-Translate2
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/REST-Google-Translate2
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/REST-Google-Translate2
+
+    Search CPAN
+        http://search.cpan.org/dist/REST-Google-Translate2/
+
+
+LICENSE AND COPYRIGHT
+
+Copyright (C) 2012 Marty O'Brien
+Copyright (C) 2008 Eugen Sobchenko
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/ for more information.
+

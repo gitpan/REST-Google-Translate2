@@ -1,0 +1,23 @@
+---
+abstract: 'OO interface to Google Translate API v2'
+author:
+  - "Marty O'Brien <mob@cpan.org>"
+build_requires:
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.112150'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: REST-Google-Translate2
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  REST::Google: v1.0.8
+  Test::More: 0
+version: v1.0.8
